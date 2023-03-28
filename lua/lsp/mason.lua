@@ -8,7 +8,14 @@
   }
 })
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "clangd","pyright", "julials", "marksman", "r_language_server"},
+  ensure_installed = {
+    "lua_ls",
+    "clangd",
+    "pyright",
+    "julials",
+    "marksman",
+    "r_language_server",
+  },
 })
 
 
