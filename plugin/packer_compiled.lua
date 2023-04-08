@@ -260,6 +260,11 @@ _G.packer_plugins = {
     path = "/home/zpp/.local/share/nvim/site/pack/packer/start/vim-json",
     url = "https://github.com/elzr/vim-json"
   },
+  ["vim-latex-live-preview"] = {
+    loaded = true,
+    path = "/home/zpp/.local/share/nvim/site/pack/packer/start/vim-latex-live-preview",
+    url = "https://github.com/xuhdev/vim-latex-live-preview"
+  },
   ["vim-markdown"] = {
     loaded = true,
     path = "/home/zpp/.local/share/nvim/site/pack/packer/start/vim-markdown",
@@ -289,6 +294,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/zpp/.local/share/nvim/site/pack/packer/start/vim-vsnip",
     url = "https://github.com/hrsh7th/vim-vsnip"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/home/zpp/.local/share/nvim/site/pack/packer/start/vimtex",
+    url = "https://github.com/lervag/vimtex"
   },
   ["wildfire.vim"] = {
     loaded = true,

@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
   use {'godlygeek/tabular'}
   use {'elzr/vim-json'}
   use {'plasticboy/vim-markdown'}
+  --use {'ixru/nvim-markdown'}
   use {'machakann/vim-highlightedyank'}
   use {'SirVer/ultisnips'}
   use {'honza/vim-snippets'}
@@ -95,6 +96,8 @@ return require('packer').startup(function(use)
     'L3MON4D3/LuaSnip',
     'saadparwaiz1/cmp_luasnip'
   }
+  use {'lervag/vimtex'}
+  use {'xuhdev/vim-latex-live-preview'}
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
   if packer_bootstrap then
     require('packer').sync()
