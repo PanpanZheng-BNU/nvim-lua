@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
     'nvim-tree/nvim-web-devicons', -- optional
   },}
   use {'nvim-treesitter/nvim-treesitter'}
+  use {'github/copilot.vim'}
   use {'nordtheme/vim'}
   use {'ferrine/md-img-paste.vim'}
   use {'majutsushi/tagbar'}
@@ -66,7 +67,8 @@ return require('packer').startup(function(use)
   use {'nvim-lualine/lualine.nvim'}
   use {'RRethy/nvim-base16'}
   use {'christoomey/vim-tmux-navigator'}
-  use {'p00f/nvim-ts-rainbow'}
+  --use {'p00f/nvim-ts-rainbow'}
+  use {"HiPhish/nvim-ts-rainbow2"}
   use "nvim-lua/plenary.nvim"
   use {
     "williamboman/mason.nvim",

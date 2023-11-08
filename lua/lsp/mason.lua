@@ -14,7 +14,7 @@ require("mason-lspconfig").setup({
     "pyright",
     "julials",
     --"marksman",
-    "r_language_server",
+    --"r_language_server",
   },
 })
 

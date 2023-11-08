@@ -14,6 +14,4 @@ vim.g.slime_default_config = {socket_name= "default", target_pane= "{last}"}
 
 --require('plugin-config/bufferline')
 
-vim.g.UltiSnipsExpandTrigger="<tab>"
-vim.g.UltiSnipsJumpForwardTrigger="<c-b>"
-vim.g.UltiSnipsJumpBackwardTrigger="<c-z>"
+

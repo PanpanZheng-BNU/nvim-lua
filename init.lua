@@ -14,8 +14,9 @@ require("lsp.mason")
 require("lsp.cmpconf")
 
 
-vim.g.python_host_prog = '/usr/bin/python2'
-vim.g.python3_host_prog = '/home/zpp/anaconda3/bin/python'
+vim.g.python3_host_prog = '/usr/bin/python3'
+
+
 
 
 
