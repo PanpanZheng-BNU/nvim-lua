@@ -26,7 +26,7 @@ return require('packer').startup(function(use)
     'nvim-tree/nvim-web-devicons', -- optional
   },}
   use {'nvim-treesitter/nvim-treesitter'}
-  use {'github/copilot.vim'}
+	use {'github/copilot.vim'}
   use {'nordtheme/vim'}
   use {'ferrine/md-img-paste.vim'}
   use {'majutsushi/tagbar'}

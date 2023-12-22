@@ -7,8 +7,8 @@ opt.nu = true
 --indent
 opt.tabstop = 2	
 opt.shiftwidth = 2
-opt.expandtab = true
-opt.autoindent = true
+--opt.expandtab = true
+--opt.autoindent = true
 
 opt.termguicolors = true
 opt.cursorline = true
